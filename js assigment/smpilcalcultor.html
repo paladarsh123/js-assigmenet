@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="smpilcal.css">
+  </head>
+  <body>
+    <table border="2" style="height: 500px; width: 600px">
+      <tr>
+        <td>
+          <p class="para">Maths Operations</p>
+          <div class="one-div">
+            <div class="div-1">
+              <p>Enter 1st number :</p>
+              <br />
+              <p>Enter 2st number :</p>
+            </div>
+            <div class="div-2">
+              <input type="text" name="" id="demo-1" style="height: 20px" />
+              <br />
+              <br />
+              <input type="text" name="" id="demo-2" style="height: 20px" />
+            </div>
+          </div>
+          <div class="two-div">
+            <div class="div-3">
+              <p>
+                <button onclick="one()" class="adddd">+</button>
+                <button onclick="two()" class="adddd">-</button>
+                <button onclick="three()" class="adddd">*</button>
+              </p>
+
+              <p>
+                <button onclick="four()" class="addd">/</button>
+                <button onclick="five()" class="addd">%</button>
+              </p>
+            </div>
+            <div class="div-4">
+              <h3>answer is : <span id="total"></span></h3>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <script src="smpilcal.js"></script>
+  </body>
+</html>

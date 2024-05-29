@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.one-div {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.two-div {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 100px;
+}
+.adddd {
+  height: 40px;
+  width: 60px;
+  text-align: center;
+  margin-left: 5px;
+}
+.addd {
+  height: 40px;
+  width: 60px;
+  margin-right: 35px;
+  margin-top: 10px;
+}
+.div-1 {
+  font-size: 25px;
+}
+.div-2 {
+  font-size: 25px;
+}
+.para {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+.div-4 {
+  margin-right: 50px;
+}
